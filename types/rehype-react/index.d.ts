@@ -1,4 +1,4 @@
-// Type definitions for rehype-react 3.1
+// Type definitions for rehype-react 4.1
 // Project: https://github.com/rhysd/rehype-react
 // Definitions by: Adrian Kremer <https://github.com/adriankremer>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
@@ -12,6 +12,7 @@ interface Options {
         [tagName: string]: React.ComponentType<any>;
     };
     prefix?: string;
+    Fragment?: React.ElementType;
 }
 
 declare class RehypeReact {
